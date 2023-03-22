@@ -25,13 +25,14 @@ public class ComparativoCombustivel {
 		System.out.println("");
 		System.out.println("*************************************");
 		
-		double vantagem = precoGasolina * PrecoAlcool;
+		double vantagem = precoGasolina * 0.7;
 		
-		if () {
-		System.out.println("No momento é mais vantajoso abastecer com GASOLINA!");
+		if (vantagem >= precoAlcool) {
+			System.out.println("No momento é mais vantajoso abastecer com GASOLINA!");
 		}else {
-		System.out.println("No momento é mais vantajoso abastecer com Álcool!");
+			System.out.println("No momento é mais vantajoso abastecer com Álcool!");
 		}
 	
-
+	}
+		
 }
